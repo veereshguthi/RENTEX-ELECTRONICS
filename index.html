@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="RentX - Premium Electronics Rental Platform"
+  >
+
+  <title>RentX | Electronics Rental</title>
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+  <div class="logo">
+    RENT<span>X</span>
+  </div>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#categories">Categories</a>
+    <a href="#products">Explore</a>
+    <a href="#how">How it works</a>
+  </nav>
+
+  <div class="nav-buttons">
+    <button id="cartButton">
+      🛒 Cart
+      <span id="cartCount">0</span>
+    </button>
+  </div>
+
+</header>
+
+
+<main>
+
+<section class="hero" id="home">
+
+  <div class="hero-content">
+
+    <p class="eyebrow">
+      PREMIUM TECHNOLOGY RENTALS
+    </p>
+
+    <h1>
+      Experience more.
+      <span>Own less.</span>
+    </h1>
+
+    <p class="hero-text">
+      Rent premium laptops, iPhones, cameras and
+      gaming devices whenever you need them.
+    </p>
+
+    <div class="hero-buttons">
+
+      <a
+        href="#products"
+        class="primary-button"
+      >
+        Explore Electronics →
+      </a>
+
+      <a
+        href="#how"
+        class="secondary-button"
+      >
+        How it works
+      </a>
+
+    </div>
+
+    <div class="trust">
+
+      <span>✓ Flexible rentals</span>
+      <span>✓ Quality checked</span>
+      <span>✓ Secure checkout</span>
+
+    </div>
+
+  </div>
+
+
+  <div class="hero-images">
+
+    <div class="image-card laptop-card">
+      <img
+        src="https://images.unsplash.com/photo-1517336714739-489689fd1ca8?auto=format&fit=crop&w=900&q=85"
+        alt="Laptop"
+      >
+    </div>
+
+    <div class="image-card phone-card">
+      <img
+        src="https://images.unsplash.com/photo-1591337676887-a217a6970a8a?auto=format&fit=crop&w=700&q=85"
+        alt="iPhone"
+      >
+    </div>
+
+    <div class="image-card camera-card">
+      <img
+        src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=700&q=85"
+        alt="Camera"
+      >
+    </div>
+
+  </div>
+
+</section>
+
+
+<section id="categories">
+
+  <div class="section-title">
+    <p class="eyebrow">BROWSE</p>
+    <h2>Rent by category</h2>
+  </div>
+
+  <div class="categories">
+
+    <button
+      class="category-card"
+      data-category="Laptops"
+    >
+      <span>💻</span>
+      <strong>Laptops</strong>
+      <small>Work • Study • Gaming</small>
+    </button>
+
+    <button
+      class="category-card"
+      data-category="iPhones"
+    >
+      <span>📱</span>
+      <strong>iPhones</strong>
+      <small>Premium smartphones</small>
+    </button>
+
+    <button
+      class="category-card"
+      data-category="Cameras"
+    >
+      <span>📷</span>
+      <strong>Cameras</strong>
+      <small>Capture your moments</small>
+    </button>
+
+    <button
+      class="category-card"
+      data-category="Gaming"
+    >
+      <span>🎮</span>
+      <strong>Gaming</strong>
+      <small>Next-gen entertainment</small>
+    </button>
+
+  </div>
+
+</section>
+
+
+<section
+  class="products-section"
+  id="products"
+>
+
+  <div class="section-title-row">
+
+    <div>
+      <p class="eyebrow">CURATED FOR YOU</p>
+      <h2>Popular rentals</h2>
+    </div>
+
+    <div class="filters">
+
+      <input
+        id="search"
+        type="search"
+        placeholder="Search electronics..."
+      >
+
+      <select id="categoryFilter">
+
+        <option value="All">All</option>
+
+        <option value="Laptops">
+          Laptops
+        </option>
+
+        <option value="iPhones">
+          iPhones
+        </option>
+
+        <option value="Cameras">
+          Cameras
+        </option>
+
+        <option value="Tablets">
+          Tablets
+        </option>
+
+        <option value="Gaming">
+          Gaming
+        </option>
+
+      </select>
+
+    </div>
+
+  </div>
+
+
+  <div
+    id="productsGrid"
+    class="products-grid"
+  ></div>
+
+</section>
+
+
+<section class="how" id="how">
+
+  <p class="eyebrow">
+    SIMPLE PROCESS
+  </p>
+
+  <h2>Rent in three easy steps.</h2>
+
+  <div class="steps">
+
+    <div>
+      <strong>01</strong>
+      <h3>Choose</h3>
+      <p>
+        Select the laptop, iPhone, camera
+        or device you need.
+      </p>
+    </div>
+
+    <div>
+      <strong>02</strong>
+      <h3>Select dates</h3>
+      <p>
+        Decide how many days you want
+        to rent the device.
+      </p>
+    </div>
+
+    <div>
+      <strong>03</strong>
+      <h3>Enjoy</h3>
+      <p>
+        Complete checkout and enjoy
+        your technology.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+  <div class="logo">
+    RENT<span>X</span>
+  </div>
+
+  <p>
+    Premium electronics, available when
+    you need them.
+  </p>
+
+  <small>
+    © 2026 RentX. Educational project.
+  </small>
+
+</footer>
+
+
+<div
+  id="cartModal"
+  class="modal"
+>
+
+  <div class="modal-content">
+
+    <button
+      id="closeCart"
+      class="close"
+    >
+      ×
+    </button>
+
+    <h2>Your Rental Cart</h2>
+
+    <div id="cartItems"></div>
+
+    <div class="total">
+
+      <span>Total</span>
+
+      <strong id="cartTotal">
+        ₹0
+      </strong>
+
+    </div>
+
+    <button
+      id="checkout"
+      class="primary-button checkout"
+    >
+      Continue to Checkout
+    </button>
+
+  </div>
+
+</div>
+
+
+<script src="/js/app.js"></script>
+
+</body>
+</html>
